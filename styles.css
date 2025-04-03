@@ -1,0 +1,298 @@
+/* Estilos generales */
+body {
+    font-family: 'Roboto Flex', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+
+/* Barra de navegación */
+nav {
+    background-color: #155F97;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+}
+
+
+.tit {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+
+  }
+
+.logo-container {
+    display: inline-flex;
+    align-items: center;
+}
+
+.logo-img {
+    max-height: 2em; /* Ajusta el tamaño de la imagen según tus necesidades */
+    margin-right: 0.5em; /* Puedes ajustar el margen derecho según tus preferencias */
+}
+
+.logo {
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.logo-text {
+    font-size: 1em; /* Ajusta el tamaño del texto según tus necesidades */
+    font-family: 'Overlock', cursive;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.cart-icon {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Encabezado de la página */
+
+header.masthead {
+    padding-top: 10rem;
+    padding-bottom: 6rem;
+    text-align: center;
+    background-image: url("inicio.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+  }
+  header.masthead .masthead-subheading {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    margin-bottom: 25px;
+  }
+  header.masthead .masthead-heading {
+    font-size: 3.25rem;
+    font-weight: 700;
+    line-height: 3.25rem;
+    margin-bottom: 2rem;
+    font-family: 'Roboto Flex', sans-serif;
+  }
+  
+  @media (min-width: 768px) {
+    header.masthead {
+      padding-top: 17rem;
+      padding-bottom: 11rem;
+    }
+    header.masthead .masthead-subheading {
+      font-size: 2.25rem;
+      line-height: 2.25rem;
+      margin-bottom: 2rem;
+    }
+    header.masthead .masthead-heading {
+      font-size: 4.5rem;
+      font-weight: 700;
+      line-height: 4.5rem;
+      margin-bottom: 4rem;
+    }
+  }
+
+h1 {
+    font-size: 26px;
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+    color: #666;
+}
+
+.btn{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #336F9D;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px; /* Aumentar el valor para hacerlo más redondeado */
+    transition: background-color 0.3s ease;
+}
+
+
+.btn:hover {
+    background-color: #5489B2;
+}
+
+/* Sección destacada */
+.featured-section {
+    padding: 50px 0;
+    text-align: center;
+    background-color: #336F9D;
+}
+
+.featured-section h2 {
+    font-size: 24px;
+    color: #fff;
+}
+
+.products-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    justify-items: center;
+  }
+  
+
+.product-card {
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+    background-color: #333;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.product-card img {
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.product-card h3 {
+    font-size: 20px;
+    color: #fff;
+}
+
+.product-card p {
+    font-size: 16px;
+    color: #fff;
+}
+
+/* Sección de ofrecemos */
+
+.services-section .service-card {
+  width: 300px; /* Cambia este valor por el ancho deseado */
+  height: 200px; /* Cambia este valor por la altura deseada */
+  /* Otros estilos adicionales */
+}
+
+
+.service-card {
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+    background-color: #80B2DB;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.service-card h3 {
+    font-size: 20px;
+    color: #fff;
+}
+
+.service-card p {
+    font-size: 16px;
+    color: #fff;
+}
+
+
+/* Sección de testimonios */
+.testimonials-section {
+    padding: 50px 0;
+    text-align: center;
+    background-color: #3878AD;
+}
+
+.testimonials-section h2 {
+    font-size: 24px;
+    color: #fff;
+}
+
+.testimonial {
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+    background-color: #4C8EC5;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.testimonial img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.testimonial p {
+    font-size: 16px;
+    color: #fff;
+}
+
+.testimonial h4 {
+    font-size: 18px;
+    color: #fff;
+}
+
+.page-section {
+    padding: 6rem 0;
+  }
+  .page-section h2.section-heading, .page-section .section-heading.h2 {
+    font-size: 2.5rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+  .page-section h3.section-subheading, .page-section .section-subheading.h3 {
+    font-size: 1rem;
+    font-weight: 400;
+    font-style: italic;
+    font-family: 'Roboto Flex', sans-serif;
+    margin-bottom: 4rem;
+  }
+  .col-md-4 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+  } 
+
+  section#contact .section-heading {
+  color: #fff;
+}
+
+/* carrito */
+.cart-section{
+    padding: 50px 0;
+    text-align: center;
+    background-color: #5894C5;
+    font-size: 24px;
+    color: #fff;
+}
+
+.carrito{
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+    background-color: #80B2DB;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.section-container {
+    max-width: 400px; /* Ajusta el ancho máximo según tus necesidades */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+  }
+  
+
+
